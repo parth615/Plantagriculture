@@ -9,7 +9,7 @@ from datetime import datetime
 from PIL import Image
 from fpdf import FPDF
 
-API_KEY = st.secrets["AIzaSyA-ZP1A37UAML6OCag5iVh7npuOjS9MG9E"]
+API_KEY = st.secrets["GEMINI_API_KEY"]
 client = genai.Client(api_key=API_KEY)
 
 st.set_page_config(page_title="AgriScan AR Pro", layout="wide")
