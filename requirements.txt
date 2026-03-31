@@ -1,0 +1,8 @@
+streamlit
+streamlit-webrtc
+google-genai
+opencv-python-headless
+pandas
+requests
+pillow
+fpdf2
